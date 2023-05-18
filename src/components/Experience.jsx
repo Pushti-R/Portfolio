@@ -14,9 +14,9 @@ import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   return (
-    <VerticalTimelineElement
+    <VerticalTimelineElement className="duration-200 transition-all ease-in-out hover:scale-110 hover:cursor-pointer"
       contentStyle={{
-        background: "#1d1836",
+        background: "#282C35",
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}

@@ -1,29 +1,27 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
 } from "../assets";
+import Ril from "../assets/ril.png"
+import Tq from "../assets/tq.png"
+import foodstore from "../assets/foodstore.png"
+import smartbank from "../assets/smartbank.png"
+import interior from "../assets/interior.png"
+import github from "../assets/tech/github.png"
+import c from "../assets/tech/c.png"
+import cpp from "../assets/tech/cpp.png"
+import mysql from "../assets/tech/mysql.png"
+import netlify from "../assets/tech/netlify.png"
+import python from "../assets/tech/python.png"
+
 
 export const navLinks = [
   {
@@ -46,15 +44,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React JS Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -73,16 +67,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -93,78 +79,59 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "github",
+    icon: github,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "c",
+    icon: c,
   },
+  {
+    name: "cpp",
+    icon: cpp,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+  {
+    name: "netlify",
+    icon: netlify,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+ 
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Data Analyst",
+    company_name: "Reliance Industries Limited",
+    icon: Ril,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2023 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a Project called Card Scanner",
+      "Project aimed to scan a visiting card and separate all the details in a text file in the form of key-value pair",
+      "Skills used: Python and Machine learning",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Techq Konnect",
+    icon: Tq,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2022 - August 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developed a front-end design for two websites Educational website and a Blog website",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Skills used: HTML, CSS and JS",
     ],
   },
 ];
@@ -198,16 +165,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Food Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search for the food and order the desired food they want by paying online in a very quick and easy way.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +182,49 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: foodstore,
+    source_code_link: "https://github.com/Pushti-R/Food-Store",
+    demo_link: "https://foodiesstop.netlify.app/"
   },
   {
-    name: "Job IT",
+    name: "Smart Bank",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application template that enables users to search for bank facilities, view account details, and reduce the need of visiting bank personally.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: smartbank,
+    source_code_link: "https://github.com/Pushti-R/smart-bank",
+    demo_link: "https://digital-bank.netlify.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Interior Design",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive interior design platform that allows users to book services, look for different packages, view sample works and also look at the testimonials.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "js",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: interior,
+    source_code_link: "https://github.com/Pushti-R/Interior-Design",
+    demo_link: "https://pushti-r.github.io/Interior-Design/"
   },
 ];
 
