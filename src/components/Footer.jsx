@@ -9,7 +9,7 @@ const Footer = () => {
         <CiLinkedin className='w-9 h-9 mr-4 cursor-pointer hover:scale-110' />
         <FaGithub className='w-9 h-9 cursor-pointer hover:scale-110' />
         </div>
-        <p className='flex text-[#ffff] text-[14px] justify-center items-center mt-3'>Made with Passion by Pushti</p>
+        <p className='flex text-[#ffff] text-[14px] justify-center items-center mt-3'>Made with Passion by Pushti R.</p>
     </div>
     
   )
